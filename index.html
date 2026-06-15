@@ -1,0 +1,1100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <title>Nicholas Clementius • Portofolio Kewarganegaraan</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Mobile Toggle Button -->
+    <button
+      class="mobile-toggle"
+      onclick="toggleSidebar()"
+      aria-label="Toggle menu"
+    >
+      <svg
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+      >
+        <path d="M3 12h18M3 6h18M3 18h18" />
+      </svg>
+    </button>
+
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <h2>Portofolio PKN</h2>
+        <p>Mohamad Rifky Dhiananto</p>
+      </div>
+
+      <ul class="nav-menu">
+        <li
+          class="nav-item active"
+          data-page="home"
+          onclick="navigateTo('home')"
+        >
+          <span class="nav-icon">⌂</span>
+          <span>Beranda</span>
+        </li>
+
+        <li
+          class="nav-item"
+          data-page="materials"
+          onclick="navigateTo('materials')"
+        >
+          <span class="nav-icon">□</span>
+          <span>Modul Mingguan</span>
+        </li>
+
+        <li
+          class="nav-item"
+          data-page="projects"
+          onclick="navigateTo('projects')"
+        >
+          <span class="nav-icon">◈</span>
+          <span>Karya & Proyek</span>
+        </li>
+
+        <li
+          class="nav-item"
+          data-page="reflection"
+          onclick="navigateTo('reflection')"
+        >
+          <span class="nav-icon">◐</span>
+          <span>Refleksi Akhir</span>
+        </li>
+      </ul>
+      <div class="sidebar-footer">
+        <p>© 2026 Universitas Matana</p>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <!-- HOME PAGE -->
+      <section id="home" class="page active">
+        <div class="hero">
+          <span class="hero-badge">Mata Kuliah Kewarganegaraan</span>
+          <h1>
+            Halo, saya <br /><span class="gradient-text"
+              >Mohamad Rifky Dhiananto</span
+            >
+          </h1>
+        </div>
+
+        <div class="profile-section">
+          <div class="profile-avatar">
+            <img
+              src="files/images/WhatsApp Image 2026-06-16 at 1.34.31 AM.jpeg"
+              alt="Picture"
+            />
+          </div>
+          <div class="profile-info">
+            <p>
+              Mahasiswa Keselamatan dan Kesehatan Kerja Universitas Matana yang
+              sedang mendalami nilai-nilai kewarganegaraan melalui portofolio
+              digital ini.
+            </p>
+          </div>
+        </div>
+
+        <!-- <div class="card" style="margin-top: 2rem">
+          <h3>Mata Kuliah Kewarganegaraan</h3>
+          <p>Portofolio Digital Mata Kuliah Kewarganegaraan</p>
+        </div> -->
+      </section>
+
+      <!-- MATERIALS PAGE -->
+      <section id="materials" class="page">
+        <div class="section-header">
+          <h2>Modul Mingguan</h2>
+          <p>Dokumentasi perjalanan belajar setiap minggu</p>
+          <div class="accent-line"></div>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-date">Materi 1</div>
+            <div class="card">
+              <h3>Pengantar Kewarganegaraan</h3>
+              <p>
+                <strong>Penjelasan:</strong> Pendidikan Pancasila merupakan mata
+                kuliah yang bertujuan membentuk mahasiswa agar memahami,
+                menghayati, dan mengamalkan nilai-nilai Pancasila dalam
+                kehidupan bermasyarakat, berbangsa, dan bernegara. Mata kuliah
+                ini tidak hanya mempelajari Pancasila sebagai dasar negara,
+                tetapi juga sebagai pedoman dalam menghadapi berbagai
+                permasalahan sosial seperti intoleransi, radikalisme, korupsi,
+                kesenjangan sosial, kerusakan lingkungan, dan tantangan moral di
+                era modern.
+              </p>
+
+              <p style="margin-top: 0.8rem">
+                <strong>Ringkasan Materi:</strong>
+              </p>
+              <p>
+                Materi pengantar perkuliahan Pendidikan Pancasila menjelaskan
+                bahwa Pancasila masih sangat penting bagi Indonesia saat ini
+                karena meningkatnya fenomena intoleransi, radikalisme, dan
+                kebencian yang didasarkan pada perbedaan SARA. Oleh karena itu,
+                mahasiswa perlu mempelajari Pancasila untuk memperoleh pemahaman
+                yang utuh serta memiliki kemampuan berpikir kritis dalam
+                menganalisis berbagai persoalan bangsa.
+              </p>
+              <p>
+                Pembelajaran Pancasila membantu mahasiswa memahami berbagai
+                masalah sosial, seperti:
+              </p>
+              <ul class="summary-list">
+                <li>Rendahnya kesadaran perpajakan</li>
+                <li>Korupsi</li>
+                <li>Kerusakan lingkungan</li>
+                <li>Disintegrasi bangsa</li>
+                <li>Dekadensi moral</li>
+                <li>Penyalahgunaan narkoba</li>
+                <li>Ketidakadilan hukum</li>
+                <li>Terorisme</li>
+              </ul>
+              <p>
+                Selain itu, mahasiswa diharapkan mampu mengambil sikap yang
+                tepat dalam menghadapi intoleransi dan radikalisme. Materi juga
+                membahas tantangan bangsa terkait implementasi Pancasila, antara
+                lain:
+              </p>
+              <ul class="summary-list">
+                <li>
+                  Rendahnya pemahaman masyarakat terhadap nilai-nilai Pancasila
+                </li>
+                <li>Munculnya ekstremisme</li>
+                <li>Kesenjangan sosial</li>
+                <li>Lemahnya pelembagaan nilai Pancasila</li>
+                <li>Kurangnya keteladanan dari tokoh publik</li>
+              </ul>
+              <p>
+                Dalam proses pembelajaran, mahasiswa dituntut aktif membaca
+                materi, berdiskusi, berpendapat, melakukan presentasi,
+                mengerjakan tugas, dan melakukan refleksi. Dosen berperan
+                sebagai fasilitator yang membantu mahasiswa memahami materi
+                melalui berbagai metode pembelajaran seperti diskusi, studi
+                kasus, observasi, dan presentasi.
+              </p>
+              <p>
+                Materi ini juga memperkenalkan metode analisis masalah (problem
+                solving) yang terdiri dari enam langkah:
+              </p>
+              <ol class="summary-numbered">
+                <li>Merumuskan masalah</li>
+                <li>Menganalisis penyebab</li>
+                <li>Membuat hipotesis solusi</li>
+                <li>Mengumpulkan data</li>
+                <li>Menentukan solusi terbaik</li>
+                <li>Mengevaluasi hasilnya</li>
+              </ol>
+              <p>
+                Metode ini digunakan untuk mengkaji berbagai persoalan
+                kebangsaan berdasarkan nilai-nilai Pancasila.
+              </p>
+
+              <p style="margin-top: 0.8rem">
+                <strong>Refleksi:</strong> Setelah mempelajari materi pengantar
+                Pendidikan Pancasila, saya menyadari bahwa Pancasila bukan hanya
+                dasar negara yang dihafalkan, tetapi merupakan pedoman hidup
+                yang harus diterapkan dalam kehidupan sehari-hari. Di tengah
+                perkembangan teknologi dan arus informasi yang semakin cepat,
+                berbagai tantangan seperti intoleransi, radikalisme, penyebaran
+                hoaks, dan menurunnya nilai moral menjadi ancaman nyata bagi
+                persatuan bangsa. Sebagai mahasiswa, saya memiliki tanggung
+                jawab untuk memahami nilai-nilai Pancasila secara mendalam dan
+                menerapkannya dalam lingkungan kampus maupun masyarakat. Sikap
+                menghargai perbedaan, menjunjung keadilan, mengutamakan
+                kepentingan bersama, dan berpikir kritis terhadap berbagai
+                persoalan sosial merupakan bentuk nyata pengamalan Pancasila.
+                Materi ini juga mengajarkan bahwa penyelesaian masalah tidak
+                dapat dilakukan secara emosional atau subjektif, tetapi harus
+                melalui proses analisis yang sistematis dan berdasarkan data.
+                Dengan demikian, Pendidikan Pancasila dapat membantu membentuk
+                karakter mahasiswa yang tidak hanya cerdas secara akademik,
+                tetapi juga memiliki integritas, rasa tanggung jawab, dan
+                kepedulian terhadap bangsa dan negara.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-date">Materi 2</div>
+            <div class="card">
+              <h3>Pancasila Secara Historis</h3>
+              <p>
+                <strong>Penjelasan:</strong> Pancasila secara historis adalah
+                kajian mengenai proses lahir, perkembangan, dan perumusan
+                nilai-nilai Pancasila yang berasal dari perjalanan panjang
+                sejarah bangsa Indonesia. Nilai-nilai yang terkandung dalam
+                Pancasila tidak muncul secara tiba-tiba, melainkan telah hidup
+                dan berkembang dalam masyarakat Nusantara sejak zaman kerajaan,
+                masa penjajahan, kebangkitan nasional, hingga masa kemerdekaan.
+              </p>
+
+              <p style="margin-top: 0.8rem">
+                <strong>Ringkasan Materi:</strong>
+              </p>
+
+              <div class="summary-section">
+                <h4>1. Pentingnya Mempelajari Sejarah</h4>
+                <p>
+                  Sejarah berfungsi sebagai guru kehidupan yang memberikan
+                  pelajaran dan hikmah bagi generasi sekarang. Dengan memahami
+                  sejarah, masyarakat dapat berpartisipasi dalam pembangunan
+                  bangsa serta menghindari kesalahan yang pernah terjadi di masa
+                  lalu.
+                </p>
+              </div>
+
+              <div class="summary-section">
+                <h4>2. Landasan Historis Pancasila</h4>
+                <p>
+                  Nilai-nilai Pancasila telah ada sejak masa kerajaan-kerajaan
+                  Nusantara seperti Kutai, Sriwijaya, dan Majapahit. Melalui
+                  proses sejarah yang panjang, bangsa Indonesia menemukan
+                  identitas dan jati dirinya yang kemudian dirumuskan dalam lima
+                  prinsip yang disebut Pancasila.
+                </p>
+              </div>
+
+              <div class="summary-section">
+                <h4>3. Nilai-Nilai Pancasila dalam Sejarah Nusantara</h4>
+                <ul class="summary-list">
+                  <li>
+                    <strong>Ketuhanan:</strong> Tercermin dalam kehidupan
+                    masyarakat Kutai, Sriwijaya, dan Majapahit yang menjunjung
+                    nilai keagamaan
+                  </li>
+                  <li>
+                    <strong>Kemanusiaan dan Persatuan:</strong> Terlihat dari
+                    toleransi antarumat beragama pada masa Raja Airlangga dan
+                    semangat penyatuan Nusantara melalui Sumpah Palapa Gajah
+                    Mada
+                  </li>
+                  <li>
+                    <strong>Kerakyatan (Demokrasi):</strong> Tercermin dalam
+                    sistem musyawarah masyarakat Minangkabau yang mengutamakan
+                    mufakat dan partisipasi rakyat
+                  </li>
+                  <li>
+                    <strong>Keadilan Sosial:</strong> Diwujudkan melalui
+                    pembangunan waduk dan tanggul oleh Raja Airlangga serta
+                    kemakmuran rakyat pada masa Majapahit
+                  </li>
+                </ul>
+              </div>
+
+              <div class="summary-section">
+                <h4>4. Masa Penjajahan</h4>
+                <p>
+                  Masuknya bangsa Portugis dan Belanda ke Nusantara yang awalnya
+                  untuk berdagang kemudian berkembang menjadi kolonialisme.
+                  Berbagai perlawanan dilakukan oleh tokoh-tokoh daerah seperti:
+                </p>
+                <ul class="summary-list">
+                  <li>Sultan Agung</li>
+                  <li>Sultan Hasanuddin</li>
+                  <li>Sultan Ageng Tirtayasa</li>
+                  <li>Pangeran Diponegoro</li>
+                </ul>
+                <p>
+                  Penjajahan menimbulkan penderitaan rakyat, termasuk melalui
+                  sistem tanam paksa.
+                </p>
+              </div>
+
+              <div class="summary-section">
+                <h4>5. Kebangkitan Nasional</h4>
+                <p>
+                  Kebijakan Politik Etis melahirkan kaum intelektual yang
+                  memelopori gerakan nasionalisme. Kebangkitan Nasional ditandai
+                  dengan:
+                </p>
+                <ul class="summary-list">
+                  <li>Berdirinya Boedi Oetomo pada 20 Mei 1908</li>
+                  <li>
+                    Sumpah Pemuda pada 28 Oktober 1928 yang menegaskan satu
+                    tanah air, satu bangsa, dan satu bahasa Indonesia
+                  </li>
+                </ul>
+              </div>
+
+              <div class="summary-section">
+                <h4>6. Masa Pendudukan Jepang</h4>
+                <p>
+                  Jepang membentuk BPUPKI sebagai badan persiapan kemerdekaan.
+                  Dalam sidang BPUPKI muncul berbagai usulan dasar negara dari:
+                </p>
+                <ul class="summary-list">
+                  <li>Mohammad Yamin</li>
+                  <li>Soepomo</li>
+                  <li>Soekarno</li>
+                </ul>
+                <p>
+                  Pada 1 Juni 1945, Soekarno memperkenalkan istilah "Pancasila"
+                  sebagai dasar negara Indonesia merdeka.
+                </p>
+              </div>
+
+              <div class="summary-section">
+                <h4>7. Perumusan dan Pengesahan Pancasila</h4>
+                <p>Tahapan perumusan Pancasila meliputi:</p>
+                <ul class="summary-list">
+                  <li>Usulan Mohammad Yamin, Soepomo, dan Soekarno</li>
+                  <li>Perumusan Piagam Jakarta pada 22 Juni 1945</li>
+                  <li>
+                    Pengesahan Pancasila oleh PPKI pada 18 Agustus 1945 sebagai
+                    dasar negara Indonesia
+                  </li>
+                </ul>
+              </div>
+
+              <div class="summary-section">
+                <h4>8. Proklamasi Kemerdekaan</h4>
+                <p>
+                  Setelah Jepang menyerah kepada Sekutu, Indonesia
+                  memproklamasikan kemerdekaannya pada 17 Agustus 1945.
+                  Proklamasi menjadi tanda berakhirnya hukum kolonial dan
+                  lahirnya negara Indonesia yang berdaulat.
+                </p>
+              </div>
+
+              <div class="summary-section">
+                <h4>9. Perkembangan Pancasila Setelah Kemerdekaan</h4>
+                <p>Pancasila mengalami dinamika pada masa:</p>
+                <ul class="summary-list">
+                  <li>Pra-Kemerdekaan</li>
+                  <li>Orde Lama</li>
+                  <li>Orde Baru</li>
+                  <li>Reformasi</li>
+                </ul>
+                <p>
+                  Hingga saat ini Pancasila tetap menjadi dasar negara dan
+                  sumber dari segala sumber hukum di Indonesia.
+                </p>
+              </div>
+
+              <p style="margin-top: 0.8rem">
+                <strong>Refleksi:</strong> Materi Pancasila secara historis
+                memberikan pemahaman bahwa Pancasila bukan sekadar dasar negara,
+                melainkan hasil perjuangan, pengalaman, dan nilai-nilai luhur
+                yang telah hidup dalam masyarakat Indonesia sejak dahulu.
+                Perjalanan panjang bangsa Indonesia dari masa kerajaan,
+                penjajahan, hingga kemerdekaan menunjukkan bahwa persatuan,
+                toleransi, gotong royong, dan semangat kebangsaan merupakan
+                kekuatan utama bangsa. Dari materi ini saya menyadari pentingnya
+                menghargai perjuangan para pendahulu yang telah merumuskan
+                Pancasila sebagai pemersatu bangsa yang majemuk. Sebagai
+                generasi muda, saya memiliki tanggung jawab untuk mengamalkan
+                nilai-nilai Pancasila dalam kehidupan sehari-hari, seperti
+                menghormati perbedaan, mengutamakan musyawarah, menjaga
+                persatuan, serta berperan aktif dalam membangun bangsa. Dengan
+                memahami sejarah lahirnya Pancasila, saya semakin yakin bahwa
+                Pancasila tetap relevan sebagai pedoman dalam menghadapi
+                berbagai tantangan di era modern.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-date">Materi 3</div>
+            <div class="card">
+              <h3>Pancasila Tinjauan Sosiologis</h3>
+              <p>
+                <strong>Penjelasan:</strong> Pancasila dalam Tinjauan Sosiologis
+                adalah kajian tentang Pancasila yang dilihat dari kehidupan
+                masyarakat Indonesia. Dalam perspektif sosiologi, Pancasila
+                berfungsi sebagai pedoman nilai dan norma yang mengatur hubungan
+                antarindividu maupun antarkelompok dalam masyarakat yang
+                majemuk. Pancasila menjadi dasar untuk menjaga persatuan,
+                menciptakan keteraturan sosial, menghargai keberagaman, serta
+                membangun kehidupan bermasyarakat yang harmonis.
+              </p>
+
+              <p style="margin-top: 0.8rem">
+                <strong>Ringkasan Materi:</strong>
+              </p>
+
+              <div class="summary-section">
+                <h4>1. Pancasila sebagai Dasar Kehidupan Berbangsa</h4>
+                <p>
+                  Pancasila merupakan fondasi utama Negara Indonesia yang
+                  menjadi dasar dalam pembentukan dan penyelenggaraan negara.
+                  Sebagai dasar negara, Pancasila berperan menjaga
+                  keberlangsungan dan keutuhan bangsa.
+                </p>
+              </div>
+
+              <div class="summary-section">
+                <h4>2. Lima Aspek Penting Pancasila</h4>
+                <ul class="summary-list">
+                  <li>
+                    Mengakomodasi keberagaman suku, agama, ras, dan golongan
+                  </li>
+                  <li>
+                    Menjamin penghormatan terhadap harkat dan martabat manusia
+                  </li>
+                  <li>Menjaga keutuhan NKRI</li>
+                  <li>
+                    Menjamin pelaksanaan demokrasi dan HAM sesuai budaya bangsa
+                  </li>
+                  <li>Mewujudkan masyarakat yang adil dan sejahtera</li>
+                </ul>
+              </div>
+
+              <div class="summary-section">
+                <h4>3. Pancasila dalam Perspektif Sosiologi</h4>
+                <p>Sosiologi mempelajari:</p>
+                <ul class="summary-list">
+                  <li>Struktur dan pola kehidupan sosial</li>
+                  <li>Kelompok dan golongan masyarakat</li>
+                  <li>Permasalahan sosial</li>
+                  <li>Perubahan dan pembaruan dalam masyarakat</li>
+                </ul>
+                <p>
+                  Dalam konteks ini, Pancasila menjadi pedoman bagi proses
+                  sosial dan lembaga pengendalian sosial agar kehidupan
+                  masyarakat tetap harmonis.
+                </p>
+              </div>
+
+              <div class="summary-section">
+                <h4>4. Identitas Nasional Indonesia</h4>
+                <p>
+                  Identitas nasional terbentuk melalui berbagai faktor, yaitu:
+                </p>
+                <ul class="summary-list">
+                  <li>Faktor primordial (suku, bahasa, adat)</li>
+                  <li>Faktor sakral (agama atau ideologi)</li>
+                  <li>Faktor tokoh pemersatu</li>
+                  <li>Semangat Bhinneka Tunggal Ika</li>
+                  <li>Kesamaan sejarah perjuangan</li>
+                  <li>Perkembangan ekonomi yang menciptakan solidaritas</li>
+                  <li>Kelembagaan negara yang adil dan tidak diskriminatif</li>
+                </ul>
+              </div>
+
+              <div class="summary-section">
+                <h4>5. Identitas Kesukubangsaan dan Kebangsaan</h4>
+                <ul class="summary-list">
+                  <li>
+                    <strong>Kesukubangsaan:</strong> didasarkan pada kesamaan
+                    suku, budaya, agama, dan keturunan
+                  </li>
+                  <li>
+                    <strong>Kebangsaan:</strong> didasarkan pada kesepakatan
+                    seluruh kelompok masyarakat untuk bersatu dalam sebuah
+                    negara
+                  </li>
+                </ul>
+                <p>
+                  Identitas nasional menjadi alat pemersatu berbagai perbedaan
+                  yang ada di Indonesia.
+                </p>
+              </div>
+
+              <div class="summary-section">
+                <h4>6. Karakteristik Identitas Nasional Indonesia</h4>
+                <p>Identitas nasional Indonesia meliputi:</p>
+                <ul class="summary-list">
+                  <li>Bahasa Indonesia</li>
+                  <li>Pancasila sebagai dasar negara</li>
+                  <li>Lagu kebangsaan Indonesia Raya</li>
+                  <li>Lambang negara Garuda Pancasila</li>
+                  <li>Semboyan Bhinneka Tunggal Ika</li>
+                  <li>Bendera Merah Putih</li>
+                  <li>UUD 1945</li>
+                  <li>Bentuk negara NKRI</li>
+                  <li>Wawasan Nusantara</li>
+                  <li>
+                    Kebudayaan nasional yang berasal dari kebudayaan daerah
+                  </li>
+                </ul>
+              </div>
+
+              <div class="summary-section">
+                <h4>7. Multikulturalisme</h4>
+                <p>
+                  Multikulturalisme adalah pandangan yang mengakui dan
+                  menghargai keberagaman budaya dalam masyarakat. Konsep ini
+                  menekankan kesetaraan, toleransi, dan penerimaan terhadap
+                  perbedaan agama, budaya, dan kelompok sosial.
+                </p>
+              </div>
+
+              <p style="margin-top: 0.8rem">
+                <strong>Refleksi:</strong> Setelah mempelajari Pancasila dari
+                sudut pandang sosiologis, saya memahami bahwa Pancasila bukan
+                hanya dasar negara, tetapi juga pedoman dalam kehidupan
+                bermasyarakat. Indonesia memiliki keberagaman suku, agama,
+                budaya, dan bahasa yang sangat besar. Tanpa adanya nilai-nilai
+                Pancasila, perbedaan tersebut berpotensi menimbulkan konflik dan
+                perpecahan. Pancasila mengajarkan pentingnya toleransi, gotong
+                royong, persatuan, serta penghormatan terhadap hak dan martabat
+                setiap manusia. Nilai-nilai tersebut sangat relevan dalam
+                kehidupan sehari-hari, baik di lingkungan keluarga, kampus,
+                maupun masyarakat. Melalui pemahaman terhadap identitas nasional
+                dan multikulturalisme, saya semakin menyadari bahwa keberagaman
+                bukanlah penghalang untuk bersatu, melainkan kekuatan yang harus
+                dijaga bersama. Oleh karena itu, sebagai generasi muda, saya
+                perlu menerapkan nilai-nilai Pancasila dalam tindakan nyata,
+                seperti menghargai perbedaan pendapat, menjaga persatuan,
+                bersikap adil, dan berpartisipasi dalam menciptakan kehidupan
+                sosial yang harmonis demi kemajuan bangsa Indonesia.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-date">Materi 4</div>
+            <div class="card">
+              <h3>Pancasila Sebagai Yuridis</h3>
+              <p>
+                <strong>Penjelasan:</strong> Pancasila secara yuridis adalah
+                kedudukan Pancasila dalam sistem hukum Indonesia sebagai sumber
+                dari segala sumber hukum dan norma dasar yang menjadi landasan
+                pembentukan seluruh peraturan perundang-undangan di Indonesia.
+                Pancasila tidak secara langsung memuat perintah, larangan, atau
+                sanksi hukum, tetapi berisi nilai-nilai dan asas fundamental
+                yang menjadi pedoman dalam pembentukan hukum nasional.
+              </p>
+
+              <p style="margin-top: 0.8rem">
+                <strong>Ringkasan Materi:</strong>
+              </p>
+
+              <div class="summary-section">
+                <h4>1. Pancasila sebagai Sumber Hukum</h4>
+                <p>
+                  Sumber hukum adalah tempat untuk menemukan dan menggali hukum.
+                  Sumber hukum dibedakan menjadi:
+                </p>
+                <p><strong>A. Sumber Hukum Materiil</strong></p>
+                <ul class="summary-list">
+                  <li>Tempat asal materi atau isi hukum</li>
+                  <li>
+                    Dipengaruhi oleh faktor sosial, politik, ekonomi, budaya,
+                    agama, dan kondisi geografis masyarakat
+                  </li>
+                </ul>
+                <p><strong>B. Sumber Hukum Formil</strong></p>
+                <ul class="summary-list">
+                  <li>Tempat suatu peraturan memperoleh kekuatan hukum</li>
+                  <li>
+                    Contohnya peraturan perundang-undangan, perjanjian
+                    antarnegara, dan kebiasaan
+                  </li>
+                </ul>
+              </div>
+
+              <div class="summary-section">
+                <h4>2. Pancasila sebagai Sumber Hukum Materiil</h4>
+                <p>Pancasila termasuk sumber hukum materiil karena:</p>
+                <ul class="summary-list">
+                  <li>Mengandung nilai filosofis bangsa Indonesia</li>
+                  <li>Menjadi identitas hukum nasional</li>
+                  <li>Menjadi dasar dan pedoman pembentukan hukum</li>
+                  <li>
+                    Menentukan asas-asas fundamental (meta-juris) bagi
+                    pembentukan hukum
+                  </li>
+                </ul>
+              </div>
+
+              <div class="summary-section">
+                <h4>3. Pancasila sebagai Sumber dari Segala Sumber Hukum</h4>
+                <ul class="summary-list">
+                  <li>
+                    Pancasila merupakan cita-cita hukum (rechtidee) bangsa
+                    Indonesia
+                  </li>
+                  <li>Menjadi norma dasar dalam penyelenggaraan negara</li>
+                  <li>
+                    Menjiwai seluruh aspek kehidupan berbangsa dan bernegara
+                  </li>
+                  <li>
+                    Menjadi dasar bagi hukum tertulis maupun tidak tertulis di
+                    Indonesia
+                  </li>
+                </ul>
+              </div>
+
+              <div class="summary-section">
+                <h4>
+                  4. Hubungan Pancasila dengan Pembukaan UUD NRI Tahun 1945
+                </h4>
+                <ul class="summary-list">
+                  <li>
+                    Pancasila tercantum dalam Pembukaan UUD NRI Tahun 1945
+                  </li>
+                  <li>
+                    Pembukaan UUD 1945 memiliki kedudukan yang lebih mendasar
+                    dibandingkan batang tubuh UUD
+                  </li>
+                  <li>
+                    Kedudukan tersebut memperkuat Pancasila sebagai norma dasar
+                    hukum tertinggi yang tidak dapat diubah dan melekat pada
+                    keberadaan Negara Republik Indonesia
+                  </li>
+                </ul>
+              </div>
+
+              <div class="summary-section">
+                <h4>5. Hierarki Hukum (Stufenbau Theorie)</h4>
+                <ul class="summary-list">
+                  <li>Sistem hukum tersusun secara bertingkat (hierarkis)</li>
+                  <li>
+                    Peraturan yang lebih rendah harus bersumber pada peraturan
+                    yang lebih tinggi
+                  </li>
+                  <li>
+                    Pada puncak hierarki terdapat Grundnorm (norma dasar), yaitu
+                    Pancasila sebagai dasar seluruh sistem hukum Indonesia
+                  </li>
+                </ul>
+              </div>
+
+              <p style="margin-top: 0.8rem">
+                <strong>Refleksi:</strong> Setelah mempelajari materi ini, saya
+                memahami bahwa Pancasila bukan hanya dasar negara, tetapi juga
+                menjadi fondasi utama dalam pembentukan seluruh hukum di
+                Indonesia. Setiap peraturan yang dibuat harus mencerminkan
+                nilai-nilai Pancasila agar sesuai dengan cita-cita bangsa dan
+                tidak bertentangan dengan prinsip keadilan, kemanusiaan,
+                persatuan, demokrasi, dan keadilan sosial. Materi ini juga
+                memberikan pemahaman bahwa hukum tidak boleh dibuat semata-mata
+                berdasarkan kepentingan tertentu, melainkan harus berlandaskan
+                nilai luhur yang telah disepakati bersama oleh bangsa Indonesia.
+                Oleh karena itu, sebagai warga negara, saya perlu memahami dan
+                mengamalkan nilai-nilai Pancasila dalam kehidupan sehari-hari
+                agar tercipta kehidupan bermasyarakat yang tertib, adil, dan
+                harmonis. Kesimpulan refleksi: Pancasila memiliki peran yang
+                sangat penting sebagai norma dasar dan sumber dari segala sumber
+                hukum, sehingga keberadaannya harus dijaga dan dijadikan pedoman
+                dalam kehidupan berbangsa dan bernegara.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-date">Materi 5</div>
+            <div class="card">
+              <h3>Pancasila Secara Filosofis</h3>
+              <p>
+                <strong>Penjelasan:</strong> Pancasila secara filosofis adalah
+                pandangan hidup, dasar negara, dan sistem filsafat bangsa
+                Indonesia yang berisi nilai-nilai fundamental sebagai pedoman
+                dalam berpikir, bersikap, dan bertindak. Pancasila tidak lahir
+                secara tiba-tiba, melainkan hasil perenungan para pendiri bangsa
+                yang menggali nilai-nilai budaya Indonesia dan memadukannya
+                dengan berbagai pemikiran besar dunia.
+              </p>
+
+              <p style="margin-top: 0.8rem">
+                <strong>Ringkasan Materi:</strong>
+              </p>
+
+              <div class="summary-section">
+                <h4>1. Pancasila sebagai Dasar Negara</h4>
+                <p>
+                  Pancasila merupakan dasar negara Indonesia yang dirumuskan
+                  oleh para pendiri bangsa sebagai landasan yang kokoh bagi
+                  berdirinya negara Indonesia merdeka.
+                </p>
+              </div>
+
+              <div class="summary-section">
+                <h4>2. Pancasila sebagai Budaya Bangsa</h4>
+                <p>
+                  Pancasila berasal dari nilai-nilai yang telah hidup dalam
+                  masyarakat Indonesia sejak lama. Nilai-nilai tersebut kemudian
+                  dirumuskan dan disintesiskan menjadi ideologi bangsa oleh para
+                  pendiri negara.
+                </p>
+              </div>
+
+              <div class="summary-section">
+                <h4>3. Pancasila sebagai Pandangan Hidup</h4>
+                <p>Pancasila berfungsi sebagai:</p>
+                <ul class="summary-list">
+                  <li>Pedoman dalam kehidupan sehari-hari</li>
+                  <li>Petunjuk arah bagi seluruh aktivitas bangsa</li>
+                  <li>Cita-cita yang ingin diwujudkan bangsa Indonesia</li>
+                  <li>Jiwa dan kepribadian bangsa Indonesia</li>
+                </ul>
+              </div>
+
+              <div class="summary-section">
+                <h4>4. Pancasila sebagai Dasar Negara</h4>
+                <p>Fungsi Pancasila meliputi:</p>
+                <ul class="summary-list">
+                  <li>
+                    <strong>Yuridis:</strong> sumber dari segala sumber hukum
+                  </li>
+                  <li>
+                    <strong>Sosiologis:</strong> mengatur kehidupan
+                    bermasyarakat
+                  </li>
+                  <li>
+                    <strong>Etis dan filosofis:</strong> menjadi pedoman
+                    perilaku dan pencarian kebenaran
+                  </li>
+                </ul>
+                <p>
+                  Pancasila juga merupakan norma dasar negara yang bersifat
+                  tetap dan tidak dapat diubah.
+                </p>
+              </div>
+
+              <div class="summary-section">
+                <h4>5. Pancasila sebagai Sistem Filsafat</h4>
+                <p>
+                  Sistem adalah kesatuan bagian-bagian yang saling berhubungan
+                  dan memiliki tujuan tertentu. Sementara filsafat adalah
+                  kecintaan terhadap kebijaksanaan dan usaha mencari hakikat
+                  suatu kebenaran. Karena kelima sila saling berkaitan dan
+                  memiliki tujuan yang sama, maka Pancasila memenuhi syarat
+                  sebagai sistem filsafat.
+                </p>
+              </div>
+
+              <div class="summary-section">
+                <h4>6. Asal Mula Pancasila Menurut Teori Aristoteles</h4>
+                <p>Aristoteles membagi asal mula menjadi empat sebab:</p>
+                <ul class="summary-list">
+                  <li>
+                    <strong>Kausa Materialis:</strong> bahan pembentuk
+                    Pancasila, yaitu nilai-nilai kehidupan masyarakat Nusantara
+                  </li>
+                  <li>
+                    <strong>Kausa Formalis:</strong> bentuk Pancasila sebagai
+                    lima sila yang dirumuskan dalam Piagam Jakarta
+                  </li>
+                  <li>
+                    <strong>Kausa Efisien:</strong> proses perumusan melalui
+                    BPUPKI, Panitia Sembilan, hingga pengesahan oleh PPKI
+                  </li>
+                  <li>
+                    <strong>Kausa Finalis:</strong> tujuan Pancasila sebagai
+                    dasar filsafat negara Indonesia
+                  </li>
+                </ul>
+              </div>
+
+              <p style="margin-top: 0.8rem">
+                <strong>Refleksi:</strong> Setelah mempelajari Pancasila secara
+                filosofis, saya memahami bahwa Pancasila bukan sekadar dasar
+                negara atau hafalan lima sila, tetapi merupakan nilai-nilai
+                luhur yang lahir dari budaya dan kehidupan masyarakat Indonesia.
+                Pancasila menjadi pedoman untuk menjaga persatuan, menghormati
+                perbedaan, serta mewujudkan kehidupan yang adil dan bermartabat.
+                Saya juga menyadari bahwa setiap sila memiliki keterkaitan satu
+                sama lain sehingga harus diterapkan secara utuh dalam kehidupan
+                sehari-hari. Sebagai generasi muda, saya memiliki tanggung jawab
+                untuk mengamalkan nilai-nilai Pancasila, seperti menghormati
+                sesama, bersikap jujur, bertanggung jawab, serta mengutamakan
+                kepentingan bersama di atas kepentingan pribadi. Melalui
+                pemahaman filosofis ini, saya semakin yakin bahwa Pancasila
+                merupakan fondasi yang sangat penting dalam menjaga identitas
+                bangsa dan menghadapi berbagai tantangan di era modern tanpa
+                kehilangan jati diri sebagai bangsa Indonesia.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-date">Materi 6</div>
+            <div class="card">
+              <h3>Pancasila Sebagai Ideologi Terbuka</h3>
+              <p>
+                <strong>Penjelasan:</strong> Pancasila sebagai ideologi terbuka
+                adalah sistem nilai dan cita-cita bangsa Indonesia yang
+                bersumber dari kepribadian serta budaya bangsa, yang tetap
+                mempertahankan nilai-nilai dasarnya namun mampu menyesuaikan
+                diri dengan perkembangan zaman. Sebagai ideologi, Pancasila
+                menjadi pedoman berpikir dan bertindak dalam kehidupan
+                bermasyarakat, berbangsa, dan bernegara. Materi menjelaskan
+                bahwa ideologi merupakan kumpulan gagasan, keyakinan, dan nilai
+                yang sistematis untuk mengatur kehidupan manusia dalam berbagai
+                bidang, serta merupakan perwujudan filsafat sebagai pandangan
+                hidup.
+              </p>
+
+              <p style="margin-top: 0.8rem">
+                <strong>Ringkasan Materi:</strong>
+              </p>
+              <p>
+                Materi diawali dengan penjelasan mengenai pengertian ideologi.
+                Secara etimologis, ideologi berasal dari kata <em>idea</em> yang
+                berarti gagasan, cita-cita, atau konsep dasar, dan
+                <em>logos</em> yang berarti ilmu. Dengan demikian, ideologi
+                dapat diartikan sebagai ilmu tentang gagasan atau cita-cita.
+              </p>
+
+              <p>
+                Dalam arti luas, ideologi menjadi pedoman berpikir dan bertindak
+                dalam seluruh aspek kehidupan, sedangkan dalam arti sempit
+                menjadi pedoman pada bidang tertentu saja. Ideologi dapat muncul
+                dalam berbagai konteks:
+              </p>
+              <ul class="summary-list">
+                <li>Ideologi perseorangan</li>
+                <li>Ideologi kelompok sosial</li>
+                <li>Ideologi negara</li>
+              </ul>
+
+              <p>
+                Sebagai ideologi negara, Pancasila berfungsi sebagai dasar dan
+                arah penyelenggaraan kehidupan berbangsa dan bernegara.
+                Pancasila dipandang sebagai ideologi yang berangkat dari aliran
+                personalisme, yaitu pandangan yang menghargai manusia sebagai
+                individu sekaligus makhluk sosial. Oleh karena itu, Pancasila
+                menjadi kritik terhadap ideologi-ideologi besar dunia yang hanya
+                menekankan salah satu aspek kodrat manusia.
+              </p>
+
+              <p>
+                Dalam konteks ideologi dunia, Pancasila memiliki karakteristik
+                yang khas:
+              </p>
+              <ul class="summary-list">
+                <li>
+                  Mengandung nilai ketuhanan yang dekat dengan ideologi
+                  keagamaan
+                </li>
+                <li>
+                  Menjunjung demokrasi melalui sila keempat yang menekankan
+                  musyawarah untuk mufakat
+                </li>
+                <li>
+                  Menghargai Hak Asasi Manusia (HAM), yang juga menjadi salah
+                  satu unsur dalam liberalisme
+                </li>
+              </ul>
+
+              <p>
+                Dengan demikian, Pancasila tidak sepenuhnya mengikuti satu
+                ideologi tertentu, melainkan menggabungkan berbagai nilai yang
+                sesuai dengan kepribadian bangsa Indonesia. Keberhasilan
+                penerapan ideologi dalam suatu negara dapat diukur melalui
+                berbagai indikator, seperti:
+              </p>
+              <ul class="summary-list">
+                <li>Keamanan</li>
+                <li>Kebebasan individu</li>
+                <li>Tata kelola pemerintahan</li>
+                <li>Partisipasi sosial</li>
+                <li>Kondisi lingkungan</li>
+                <li>Kualitas ekonomi</li>
+                <li>Kesehatan</li>
+                <li>Pendidikan</li>
+                <li>Kesejahteraan masyarakat</li>
+              </ul>
+
+              <p style="margin-top: 0.8rem">
+                <strong>Refleksi:</strong> Setelah mempelajari materi ini, saya
+                memahami bahwa Pancasila bukan hanya dasar negara, tetapi juga
+                ideologi yang menjadi pedoman dalam kehidupan sehari-hari.
+                Keunggulan Pancasila sebagai ideologi terbuka adalah
+                kemampuannya untuk tetap mempertahankan nilai-nilai dasar bangsa
+                Indonesia sekaligus menyesuaikan diri dengan perubahan zaman.
+                Hal ini membuat Pancasila tetap relevan dalam menghadapi
+                berbagai tantangan global tanpa kehilangan jati diri bangsa.
+                Materi ini juga mengajarkan bahwa kehidupan berbangsa tidak
+                dapat hanya mengutamakan kebebasan individu atau kepentingan
+                kelompok semata. Pancasila mengajarkan keseimbangan antara hak
+                dan kewajiban, antara kepentingan pribadi dan kepentingan
+                bersama, serta antara nilai ketuhanan dan kemanusiaan. Oleh
+                karena itu, sebagai generasi muda, saya perlu menerapkan
+                nilai-nilai Pancasila dalam kehidupan sehari-hari, seperti
+                menghargai perbedaan, bermusyawarah dalam menyelesaikan masalah,
+                serta berpartisipasi aktif dalam menjaga persatuan dan kemajuan
+                bangsa.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS PAGE -->
+      <section id="projects" class="page">
+        <div class="section-header">
+          <h2>Karya & Proyek</h2>
+          <p>Kompilasi karya terbaik bersama kelompok</p>
+          <div class="accent-line"></div>
+        </div>
+
+        <div class="grid-2">
+          <div class="card">
+            <h3>Podcast Time!</h3>
+            <p style="margin-bottom: 1rem">
+              Persatuan Sebagai Pedoman Moral Dalam Menghadapi Krisis Identitas
+              Nasional
+            </p>
+            <div class="video-container">
+              <iframe
+                src="https://www.youtube.com/embed/iLfSerDWBmw"
+                title="Podcast Kewarganegaraan"
+                frameborder="0"
+                allow="
+                  accelerometer;
+                  autoplay;
+                  clipboard-write;
+                  encrypted-media;
+                  gyroscope;
+                  picture-in-picture;
+                "
+                allowfullscreen
+              ></iframe>
+            </div>
+            <p>
+              Diskusi mendalam mengenai pentingnya persatuan sebagai fondasi
+              moral bangsa Indonesia.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Infografis Penelitian</h3>
+            <img
+              src="/files/images/1781421034976-9b2dd3f3-01d9-46d2-8de2-596b32376ec9_1.jpg"
+              alt="Infografis Kewarganegaraan"
+              class="infographic-img"
+            />
+            <p>
+              Visualisasi data hasil survei dan analisis dari podcast yang telah
+              dilakukan oleh kelompok.
+            </p>
+          </div>
+
+          <div class="card" style="margin-top: 1.5rem">
+            <h3>Proposal Penelitian</h3>
+            <iframe
+              src="files/docs/MAKALAH ANALISIS PERILAKU MENYIMPANG (PANCASILA) TUGAS 1.pdf"
+              class="pdf-viewer"
+              title="PDF Proposal"
+            ></iframe>
+            <p style="margin-top: 1rem">
+              Proposal lengkap yang disusun sebagai landasan pelaksanaan
+              penelitian kewarganegaraan.
+            </p>
+            <a
+              href="files/docs/MAKALAH ANALISIS PERILAKU MENYIMPANG (PANCASILA) TUGAS 1.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn"
+              style="margin-top: 1rem"
+              >Buka di Tab Baru</a
+            >
+          </div>
+          <div class="card" style="margin-top: 1.5rem">
+            <h3>Artikel Ilmiah</h3>
+            <iframe
+              src="files/docs/_ARTIKEL ILMIAH Pancasila.docx (3) (1).pdf"
+              class="pdf-viewer"
+              title="PDF Proposal"
+            ></iframe>
+            <p style="margin-top: 1rem">
+              Artikel Ilmiah yang disusun sebagai landasan pelaksanaan
+              penelitian kewarganegaraan.
+            </p>
+            <a
+              href="files/docs/_ARTIKEL ILMIAH Pancasila.docx (3) (1).pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn"
+              style="margin-top: 1rem"
+              >Buka di Tab Baru</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- REFLECTION PAGE -->
+      <section id="reflection" class="page">
+        <div class="section-header">
+          <h2>Refleksi Akhir</h2>
+          <p>Pemaknaan perjalanan pembelajaran</p>
+          <div class="accent-line"></div>
+        </div>
+
+        <div class="grid-2">
+          <div class="card">
+            <h3>Evaluasi Pengetahuan</h3>
+            <p>
+              Melalui perkuliahan Kewarganegaraan, saya memperoleh wawasan yang
+              lebih luas dan mendalam mengenai dasar-dasar kehidupan berbangsa
+              dan bernegara. Pemahaman tersebut mencakup nilai-nilai Pancasila,
+              konstitusi, hak dan kewajiban warga negara, serta perkembangan
+              demokrasi di Indonesia.
+            </p>
+            <p style="margin-top: 1rem">
+              Materi yang dipelajari juga membantu saya memahami pentingnya
+              peran warga negara dalam menjaga persatuan, mewujudkan keadilan,
+              dan mendukung keberlangsungan kehidupan nasional di tengah arus
+              globalisasi yang terus berkembang.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Pembaruan Sikap</h3>
+            <p>
+              Perkuliahan ini memberikan pengaruh positif terhadap cara pandang
+              dan sikap saya sebagai warga negara. Saya menjadi lebih sadar akan
+              pentingnya toleransi, tanggung jawab sosial, serta keterlibatan
+              aktif dalam kehidupan bermasyarakat.
+            </p>
+            <p style="margin-top: 1rem">
+              Selain menambah pemahaman secara teoritis, materi yang dipelajari
+              juga dapat diterapkan dalam kehidupan sehari-hari sebagai bentuk
+              kontribusi nyata bagi bangsa dan negara.
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="card"
+          style="
+            margin-top: 1.5rem;
+            text-align: center;
+            background: rgba(99, 102, 241, 0.05);
+          "
+        >
+          <p style="font-size: 1.1rem; font-style: italic">
+            "Pengetahuan yang baik tentang kehidupan berbangsa dan bernegara
+            akan lebih bermakna apabila diwujudkan melalui sikap yang
+            bertanggung jawab, peduli, dan berkontribusi bagi masyarakat."
+          </p>
+          <p style="margin-top: 0.5rem; color: var(--accent-light)">
+            — Mohamad Rifky Dhiananto
+          </p>
+        </div>
+      </section>
+
+      <footer class="main-footer">
+        <p>
+          © 2026 Mohamad Rifky Dhiananto — Portofolio Kewarganegaraan •
+          Universitas Matana
+        </p>
+      </footer>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>
